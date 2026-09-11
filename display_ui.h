@@ -37,7 +37,7 @@ int displayDeviceListGetSelection();
 
 void displayHideDeviceList();
 
-// Liked Songs picker screen, opened by holding vol-up + vol-down together.
+// Liked Songs picker screen, opened by double-pressing play/pause.
 // `names` is the list of song names (a "Back" entry is appended
 // automatically). Selection starts on the first entry.
 void displayShowSongList(const String *names, int count);
